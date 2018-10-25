@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Busca CEP</title>
+  	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  	<link href='style.css' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<h1>Busca CEP</h1>
+	
+	<div class="form">
+		<input type="text" id="cep" onkeypress="mascara(this, '#####-###')" maxlength="9" value="">
+		<button id="btn">Buscar</button>
+	</div>
+
+	<div id="result"></div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
